@@ -1,1 +1,0 @@
-# resonancerp-scp-documentation

@@ -1,0 +1,144 @@
+/*
+ * Resonance Networks Dark Theme for Lua
+ * Optimized for function visibility
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: rgb(10, 10, 10);
+  color: #c8c8c8;
+}
+
+/* Comments */
+.hljs-comment,
+.hljs-quote {
+  color: #5a5a5a;
+  font-style: italic;
+}
+
+/* Keywords (function, local, if, then, etc.) */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+/* Function names */
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #4ecdc4;
+  font-weight: 700;
+}
+
+/* Numbers */
+.hljs-number {
+  color: #ff9f40;
+}
+
+/* Strings */
+.hljs-string,
+.hljs-doctag {
+  color: #95e1d3;
+}
+
+/* Built-in functions (print, pairs, etc.) */
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #feca57;
+  font-weight: 600;
+}
+
+/* Variables and parameters */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attr {
+  color: #c8c8c8;
+}
+
+/* Function parameters */
+.hljs-params {
+  color: #d4a5ff;
+}
+
+/* Operators */
+.hljs-operator,
+.hljs-subst {
+  color: #ff6b6b;
+}
+
+/* Class names, types */
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #4ecdc4;
+  font-weight: 600;
+}
+
+/* Tags, attributes */
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #ff6b6b;
+}
+
+/* Regexp, links */
+.hljs-regexp,
+.hljs-link {
+  color: #95e1d3;
+}
+
+/* Symbols */
+.hljs-symbol,
+.hljs-bullet {
+  color: #feca57;
+}
+
+/* Meta information */
+.hljs-meta {
+  color: #787878;
+}
+
+/* Special Lua tokens */
+.hljs-function {
+  color: #ff6b6b;
+}
+
+/* Self keyword */
+.hljs-keyword.hljs-self {
+  color: #d4a5ff;
+  font-style: italic;
+}
+
+/* Deletion/Addition for diffs */
+.hljs-deletion {
+  background: rgba(220, 53, 69, 0.2);
+  color: #dc3545;
+}
+
+.hljs-addition {
+  background: rgba(78, 205, 196, 0.2);
+  color: #4ecdc4;
+}
+
+/* Emphasis */
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* Line highlighting */
+.hljs-ln-line.highlighted {
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+/* Selection */
+.hljs::selection,
+.hljs span::selection {
+  background: rgba(255, 107, 107, 0.3);
+}
